@@ -1,4 +1,4 @@
-const counterDisplay = document.querySelector("h3");
+const counterDisplay = document.querySelector(".count");
 let counter = 0,
   currentCounter;
 

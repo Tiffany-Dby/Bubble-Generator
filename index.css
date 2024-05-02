@@ -2,6 +2,10 @@
   box-sizing: border-box;
 }
 
+html, body {
+  overflow: hidden;
+}
+
 body, .content-container, .counter, .count, .btn-container, .buttons, i {
   display: flex;
 }
@@ -22,7 +26,6 @@ body {
   position: relative;
   min-height: 100svh;
   margin: 0;
-  overflow: hidden;
   cursor: crosshair;
   background: rgb(255, 236, 253);
   user-select: none;
